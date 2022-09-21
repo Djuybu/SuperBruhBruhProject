@@ -347,3 +347,11 @@ footer>p{
     order: 1;
     
 }
+.submit-button {
+    background-color:#368f62;
+    color: white;
+    padding: 5px;
+    border: 1px solid #368f62;
+    font-size: 18px;
+    border-radius: 10px;
+}
