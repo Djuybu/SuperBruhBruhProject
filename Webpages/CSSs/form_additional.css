@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.web-container {
+.form-container {
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
     background-color: rgba(255, 255, 255, 0.864);
     align-items: center;
@@ -73,4 +73,50 @@ label {
     color: red;
     font-size: 15px;
     font-style: italic;
+}
+.done {
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(39, 27, 27, 0.69);
+    padding-top: 240px ;
+    position: fixed;
+    top:0 ;
+    display: none;
+}
+.done_alert {
+    width: 36%;
+    margin:  auto;
+    /* margin-top: 240px; */
+    padding: 10px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 20px;
+}
+.done_alert {
+    color: black;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.done_alert i {
+    color: #0dd044;
+    font-size: 80px;
+    font-weight: 500;
+}
+.alert-box {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0dd044;
+    font-style: normal;
+    padding: 10px 0px;
+}
+.done_alert button {
+    border: none;
+    background-color: #0dd044;
+    border-radius: 15px;
+    font-size: 35px ;
+    padding: 8px;
+    color: white;
+}
+.done_alert a {
+   margin: 0px 80px;
 }

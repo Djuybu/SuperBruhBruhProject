@@ -355,3 +355,9 @@ footer>p{
     font-size: 18px;
     border-radius: 10px;
 }
+textarea {
+    font-size: 18px;
+}
+/* .tab li a {
+    margin-right: 0;
+} */
